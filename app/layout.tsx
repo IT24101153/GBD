@@ -12,36 +12,36 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
+  title: "Genius Build Developers | Business Software Development Company",
   description:
-    "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
+    "Genius Build Developers is a business software development company delivering custom web platforms, mobile apps, SaaS products, and cloud modernization solutions.",
   keywords: [
-    "Ibrahim Memon",
-    "Software Engineer",
-    "UI/UX Designer",
-    "Frontend Developer",
-    "React Developer",
-    "Next.js Developer",
-    "Web Designer",
-    "WebHR Engineer",
-    "Portfolio",
+    "Genius Build Developers",
+    "Business Software Development",
+    "Custom Software Development",
+    "SaaS Development",
+    "Web Application Development",
+    "Mobile App Development",
+    "Cloud Modernization",
+    "Enterprise Software Solutions",
   ],
-  authors: [{ name: "Ibrahim Memon" }],
-  creator: "Ibrahim Memon",
-  publisher: "Ibrahim Memon",
+  authors: [{ name: "Genius Build Developers" }],
+  creator: "Genius Build Developers",
+  publisher: "Genius Build Developers",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ibiimemon.com",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
+    url: "https://geniusbuilddevelopers.com",
+    title: "Genius Build Developers | Business Software Development Company",
     description:
-      "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products.",
-    siteName: "Ibrahim Memon Portfolio",
+      "Custom business software solutions that streamline operations and accelerate growth.",
+    siteName: "Genius Build Developers",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR.",
+    title: "Genius Build Developers | Business Software Development Company",
+    description:
+      "Custom business software solutions that streamline operations and accelerate growth.",
   },
   robots: {
     index: true,
@@ -70,7 +70,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://ibiimemon.com" />
+        <link rel="canonical" href="https://geniusbuilddevelopers.com" />
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
         {children}

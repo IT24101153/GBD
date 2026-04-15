@@ -11,40 +11,40 @@ interface ExperienceCard {
 const experienceCards: ExperienceCard[] = [
   {
     id: 1,
-    title: "WebHR - HR Management App",
+    title: "Custom Software Development",
     description:
-      "WebHR automates all of your company's HR processes such as Recruitment, Onboarding, Payroll, Time & Attendance, Leaves & PTO, Performance, and much more.",
+      "We build tailored web and mobile applications that fit your processes, teams, and growth targets.",
     icon: "/cards/card-1.png",
   },
   {
     id: 2,
-    title: "WebHR Kiosk - Time Clock Kiosk",
+    title: "Business Process Automation",
     description:
-      "WebHR Kiosk is a time clock kiosk that allows you to clock in and out of your work. It is a simple and easy to use app that allows you to clock in and out of your work.",
+      "Automate repetitive workflows, approvals, and reporting pipelines to save time and reduce manual errors.",
     icon: "/cards/card-2.png",
   },
   {
     id: 3,
-    title: "Somezing - AI-Powered Agents",
+    title: "SaaS Product Engineering",
     description:
-      "Somezing is a AI-Powered Agents to Automate Your Workflows. It is a simple and easy to use app that allows you to automate your workflows.",
+      "Launch secure, scalable, and user-friendly SaaS platforms from concept to production with ongoing support.",
     icon: "/cards/card-3.png",
   },
   {
     id: 4,
-    title: "FileIT - File Sharing App",
+    title: "Cloud Modernization",
     description:
-      "FileIT is a file sharing app that allows you to share files with your friends and family. It is a simple and easy to use app that allows you to share files with your friends and family.",
+      "Upgrade legacy systems with cloud-native architecture, API integrations, and resilient deployment pipelines.",
     icon: "/cards/card-4.png",
   },
 ];
 
 export default function Experience(): React.JSX.Element {
   return (
-    <section id="experience" className="py-20 px-6">
+    <section id="services" className="py-20 px-6">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl lg:text-5xl font-bold text-white mb-12 text-center">
-          Work Experience
+          Services
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {experienceCards.map((card) => (
@@ -67,12 +67,10 @@ export default function Experience(): React.JSX.Element {
                 </h3>
                 <p className="text-white/70 text-sm mb-4">{card.description}</p>
                 <Link
-                  href="https://ibiimemon.com/lab"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#contact"
                   className="text-amber-300 hover:text-orange-300 font-medium text-sm transition-colors inline-block"
                 >
-                  LEARN MORE →
+                  DISCUSS YOUR PROJECT →
                 </Link>
               </div>
             </div>

@@ -11,25 +11,23 @@ interface Project {
 const featuredProjects: Project[] = [
   {
     id: 1,
-    title: "NeuraWeb – Futuristic AI Website Landing Design",
+    title: "Enterprise Operations Platform",
     description:
-      "A sleek, dark-themed AI-powered landing page concept built in Figma. Designed for modern startups and futuristic digital products, it features glowing neon visuals, immersive UI, and a dynamic tone. The design encapsulates the cutting-edge possibilities of AI and tech, offering a glimpse into the future of online experiences for tech-forward companies.",
-    link: "https://www.figma.com/community/file/1441377868897233703/ai-website-landing-design",
+      "A centralized operations suite for HR, approvals, and KPI reporting. We unified fragmented workflows into a secure platform with role-based access and real-time dashboards.",
     image: "/projects/project-1.png",
   },
   {
     id: 2,
-    title: "Apple Vision Pro – HR Software Design",
+    title: "Field Service Automation Suite",
     description:
-      "A futuristic HR software concept designed for Apple Vision Pro, built in Figma to reimagine attendance, leave tracking, and employee experience - all in one immersive interface.",
-    link: "https://www.figma.com/community/file/1371824014208363481/apple-vision-pro-hr-software-design",
+      "A mobile-first system for job assignment, technician tracking, and client updates. The solution reduced response times and provided complete service visibility.",
     image: "/projects/project-2.png",
   },
 ];
 
 export default function Projects(): React.JSX.Element {
   return (
-    <section id="lab" className="py-20 px-6">
+    <section id="solutions" className="py-20 px-6">
       <div className="container mx-auto max-w-7xl">
         {featuredProjects.map((project, index) => {
           const isEven = index % 2 === 1;
@@ -44,7 +42,7 @@ export default function Projects(): React.JSX.Element {
                 {/* Text Content */}
                 <div className={`${isEven ? "lg:col-start-2" : ""}`}>
                   <p className="text-amber-300 text-lg lg:text-xl mb-2 font-medium">
-                    Featured Project
+                    Solution Snapshot
                   </p>
                   <h3 className="text-3xl lg:text-4xl font-bold text-white mb-6">
                     {project.title}
