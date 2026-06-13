@@ -40,10 +40,10 @@ export default function CTA() {
                 </svg>
               </a>
               <a
-                href="mailto:hello@geniusbuild.dev"
+                href="mailto:lelumjay@gmail.com"
                 className="inline-flex items-center gap-2 px-7 py-4 rounded-full bg-white/15 backdrop-blur text-white font-semibold border border-white/25 hover:bg-white/25 transition-colors"
               >
-                hello@geniusbuild.dev
+                lelumjay@gmail.com
               </a>
             </div>
           </div>

@@ -5,7 +5,6 @@ import Marquee from "./components/Marquee";
 import Services from "./components/Services";
 import Process from "./components/Process";
 import Portfolio from "./components/Portfolio";
-import Stats from "./components/Stats";
 import WhyUs from "./components/WhyUs";
 import CTA from "./components/CTA";
 import Contact from "./components/Contact";
@@ -38,8 +37,7 @@ export default function App() {
         <Services />
         <Process />
         <Portfolio />
-        <Stats />
-        <WhyUs />
+<WhyUs />
         <CTA />
         <Contact />
       </main>

@@ -25,17 +25,12 @@ export default function Hero() {
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-[1.15fr_1fr] gap-12 lg:gap-16 items-center">
         <div className="reveal">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur text-xs font-medium text-white/80">
-            <span className="h-1.5 w-1.5 rounded-full bg-[var(--color-orange-core)] animate-pulse" />
-            Now booking Q3 builds · Limited slots
-          </div>
-
           <h1 className="font-display mt-6 text-[44px] sm:text-6xl lg:text-7xl font-bold leading-[1.02] tracking-tight">
             Software, shipped
             <br />
             with{" "}
             <span className="relative inline-block">
-              <span className="text-gradient-flame">genius</span>
+              <span className="text-gradient-flame">Genius</span>
               <svg
                 className="absolute -bottom-2 left-0 w-full"
                 viewBox="0 0 300 12"
@@ -84,21 +79,21 @@ export default function Hero() {
           <div className="mt-12 flex items-center gap-8 text-white/55 text-sm">
             <div>
               <div className="font-display text-2xl text-white font-semibold">
-                200+
+                5
               </div>
               Projects delivered
             </div>
             <div className="h-10 w-px bg-white/15" />
             <div>
               <div className="font-display text-2xl text-white font-semibold">
-                12+
+                2
               </div>
               Industries served
             </div>
             <div className="h-10 w-px bg-white/15 hidden sm:block" />
             <div className="hidden sm:block">
               <div className="font-display text-2xl text-white font-semibold">
-                4.9/5
+                5/5
               </div>
               Client rating
             </div>

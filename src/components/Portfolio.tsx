@@ -67,9 +67,12 @@ export default function Portfolio() {
           {projects.map((p) => {
             const Art = p.art;
             return (
-              <article
+              <a
                 key={p.title}
-                className="reveal group relative overflow-hidden rounded-3xl border border-[var(--color-cream-deep)] bg-white hover:-translate-y-1 transition-all duration-300 hover:ring-ember"
+                href="https://www.lelumjayasooriya.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="reveal group relative overflow-hidden rounded-3xl border border-[var(--color-cream-deep)] bg-white hover:-translate-y-1 transition-all duration-300 hover:ring-ember block"
               >
                 <div
                   className={`relative h-56 md:h-64 overflow-hidden bg-gradient-to-br ${p.accent}`}
@@ -90,9 +93,23 @@ export default function Portfolio() {
                     {p.desc}
                   </p>
                 </div>
-              </article>
+              </a>
             );
           })}
+        </div>
+
+        <div className="mt-10 text-center">
+          <a
+            href="https://www.lelumjayasooriya.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-7 py-4 rounded-full border border-[var(--color-fog)] bg-white text-[var(--color-ink)] font-semibold hover:border-[var(--color-orange-core)] hover:text-[var(--color-orange-core)] transition-colors"
+          >
+            View full portfolio
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </a>
         </div>
       </div>
     </section>

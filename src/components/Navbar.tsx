@@ -37,9 +37,7 @@ export default function Navbar() {
             />
           </span>
           <span
-            className={`font-display font-semibold tracking-tight text-[15px] md:text-base ${
-              scrolled ? "text-white" : "text-[var(--color-ink)]"
-            }`}
+            className="font-display font-semibold tracking-tight text-[15px] md:text-base text-white"
           >
             Genius Build
             <span className="text-[var(--color-orange-core)]">.</span>
@@ -51,11 +49,7 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
-              className={`px-3 py-2 text-sm font-medium rounded-md transition-colors ${
-                scrolled
-                  ? "text-white/75 hover:text-white"
-                  : "text-[var(--color-ink)]/70 hover:text-[var(--color-ink)]"
-              }`}
+              className="px-3 py-2 text-sm font-medium rounded-md transition-colors text-white/75 hover:text-white"
             >
               {l.label}
             </a>
@@ -74,9 +68,7 @@ export default function Navbar() {
             type="button"
             aria-label="Toggle menu"
             onClick={() => setOpen((v) => !v)}
-            className={`md:hidden p-2 rounded-md ${
-              scrolled ? "text-white" : "text-[var(--color-ink)]"
-            }`}
+            className="md:hidden p-2 rounded-md text-white"
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
               <path
